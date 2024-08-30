@@ -8,7 +8,7 @@ export default function Services() {
     <div className={styles.container}>
       <Header />
       <main className={styles.main}>
-        <h1>Our Services</h1>
+        <h1 className={styles['services-title']}>Our Services</h1>
         <ul>
           <li>Custom Software Development</li>
           <li>Mobile App Development</li>

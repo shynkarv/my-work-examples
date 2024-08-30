@@ -8,7 +8,7 @@ export default function About() {
     <div className={styles.container}>
       <Header />
       <main className={styles.main}>
-        <h1>About Us</h1>
+        <h1 className={styles['about-title']}>About Us</h1>
         <p>We are a leading software company providing top-notch solutions to businesses worldwide.</p>
       </main>
       <Footer />

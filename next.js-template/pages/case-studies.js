@@ -8,7 +8,7 @@ export default function CaseStudies() {
     <div className={styles.container}>
       <Header />
       <main className={styles.main}>
-        <h1>Case Studies</h1>
+        <h1 className={styles['case-studies-title']}>Case Studies</h1>
         <p>Explore our successful projects and the impact we've made on our clients' businesses.</p>
       </main>
       <Footer />
